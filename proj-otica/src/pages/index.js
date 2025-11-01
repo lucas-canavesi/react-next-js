@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Topo from "@/Componentes/Topo/index"
 import SecaoCapa from "@/Componentes/secaoCapa";
 import SecaoProdutos from "@/Componentes/SecaoProdutos"
+import SecaoSobre from "@/Componentes/SecaoSobre";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Topo/>
       <SecaoCapa/>
       <SecaoProdutos/>
+      <SecaoSobre/>
       
     </>
   );
