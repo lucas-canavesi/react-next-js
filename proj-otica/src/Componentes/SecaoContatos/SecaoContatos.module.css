@@ -1,0 +1,158 @@
+.secaocontato {
+    background-color: #001f3f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px 20px;
+}
+
+.container_contato {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sobrenos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobrenos h3 {
+    font-size: 35px;
+}
+
+.container_cards {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container_telefone {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+    justify-content: center;
+    width: 350px;
+    max-width: 350px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.linha {
+    display: flex;
+    gap: 15px;
+}
+
+/* 🖥️ Até 1440px */
+@media (max-width: 1440px) {
+    .secaocontato {
+        padding: 80px 40px;
+        gap: 50px;
+    }
+
+    .sobrenos h3 {
+        font-size: 32px;
+    }
+
+    .container_cards {
+        gap: 20px;
+    }
+}
+
+/* 💻 Até 1024px (tablets e notebooks pequenos) */
+@media (max-width: 1024px) {
+    .secaocontato {
+        padding: 70px 30px;
+    }
+
+    .sobrenos h3 {
+        font-size: 28px;
+    }
+
+    .sobrenos p {
+        font-size: 15px;
+    }
+
+    .container_cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_telefone {
+        width: 300px;
+    }
+}
+
+/* 📲 Até 678px (celulares grandes) */
+@media (max-width: 678px) {
+    .secaocontato {
+        padding: 60px 20px;
+        gap: 30px;
+    }
+
+    .sobrenos h3 {
+        font-size: 24px;
+    }
+
+    .sobrenos p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .container_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_telefone {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .linha span {
+        font-size: 14px;
+    }
+}
+
+/* 📱 Até 375px (celulares pequenos) */
+@media (max-width: 375px) {
+    .secaocontato {
+        padding: 50px 15px;
+        gap: 25px;
+    }
+
+    .sobrenos h3 {
+        font-size: 20px;
+    }
+
+    .sobrenos p {
+        font-size: 13px;
+    }
+
+    .container_telefone {
+        padding: 15px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .linha {
+        gap: 10px;
+    }
+
+    .linha img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .linha span {
+        font-size: 12px;
+    }
+}

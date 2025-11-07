@@ -4,6 +4,8 @@ import Topo from "@/Componentes/Topo/index"
 import SecaoCapa from "@/Componentes/secaoCapa";
 import SecaoProdutos from "@/Componentes/SecaoProdutos"
 import SecaoSobre from "@/Componentes/SecaoSobre";
+import SecaoContato from "@/Componentes/SecaoContatos";
+import Rodape from "@/Componentes/Rodape";
 
 export default function Home() {
   return (
@@ -19,7 +21,8 @@ export default function Home() {
       <SecaoCapa/>
       <SecaoProdutos/>
       <SecaoSobre/>
-      
+      <SecaoContato/>  
+      <Rodape/>     
     </>
   );
 }
